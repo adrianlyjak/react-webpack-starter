@@ -34,11 +34,6 @@ var config = {
         query: {
           presets: ['react', 'es2015']
         }
-      },
-      {
-        test: /(\.jsx|\.js)$/,
-        loader: "eslint-loader",
-        exclude: /node_modules/
       }
     ]
   },
